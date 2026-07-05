@@ -6,7 +6,7 @@ export default function App() {
   const [image, setImage] = useState("https://static.vecteezy.com/system/resources/thumbnails/012/086/172/small/green-apple-with-green-leaf-isolated-on-white-background-vector.jpg")
   const handleClick = (e) => {
 
-    console.log("------------  ",e.clientX, e.clientY)
+    console.log("------------>>  ",e.clientX, e.clientY)
     console.log("Mouse clicked");
 
     if ((e.clientX >= 55 && e.clientX<= 444)&&(e.clientY>= 94 && e.clientY<= 463) ){
